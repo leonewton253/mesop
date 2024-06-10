@@ -46,7 +46,6 @@ def app():
 def upper_case_stream(s: str):
   yield s.capitalize()
   time.sleep(0.5)
-  yield "Done"
 ```
 
 </div>
